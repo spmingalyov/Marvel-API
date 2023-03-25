@@ -1,0 +1,107 @@
+.Comics__comics__container___GjU9lH {
+  gap: var(--spacing-medium);
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.Comics__comics__item___6Bwpiu {
+  width: 250px;
+  margin: var(--spacing-large);
+  background-color: var(--color-light);
+  cursor: pointer;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all .5s;
+  display: flex;
+}
+
+.Comics__comics__item___6Bwpiu:hover {
+  filter: saturate(150%);
+  transform: rotate(-3deg)scale(.95);
+}
+
+.Comics__comics__title___u4cupA {
+  padding: var(--spacing-small) var(--spacing-medium);
+  margin: auto;
+  display: flex;
+}
+
+.Comics__comics__img___2ggFnE {
+  width: 100%;
+}
+
+.Error__error__container___beQBMb {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Error__error__alert___niLc3w {
+  text-align: center;
+  color: var(--color-light);
+  font-size: 20px;
+}
+
+:root {
+  --color-dark: #222;
+  --color-blue: #3199dc;
+  --color-light: #e3e1e1;
+  --spacing-small: 10px;
+  --spacing-medium: 15px;
+  --spacing-large: 20px;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-dark);
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Roboto" sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  scrollbar-color: var(--color-blue) var(--color-dark);
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-blue);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-dark);
+}
+
+.btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.img-contain {
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
+.img-cover {
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/*# sourceMappingURL=index.379f2e36.css.map */
